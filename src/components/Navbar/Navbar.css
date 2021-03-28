@@ -1,0 +1,24 @@
+.Nav {
+  height: 90px;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+.black {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #111;
+}
+.Nav .logo-image {
+  width: 150px;
+  cursor: pointer;
+}
+.Nav .avatar_logo {
+  cursor: pointer;
+  height: 30px;
+}
